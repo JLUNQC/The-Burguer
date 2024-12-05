@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+/*Hader*/
+header{
+    background-color: var(--gray--);
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: calc(100vh);
+    color: white;
+}
+.logo{
+    
+   width: 85%;
+   margin: 18% auto;
+   height: calc(33vh);
+}
+.navegation, .info{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 20%;
+    line-height: 2;
+}
+.navegation ul{
+    list-style: none;
+}
+.navegation a, .info a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navegation a:hover, .info a:hover{
+    color: var(--yellow--);
+    transition: 0.5s;
+}
+.navegation{
+    height: calc(33vh);
+}
+.info{
+    height: calc(34vh);
+}
+.contact-whatsap img{
+    position: fixed;
+    width: 55px;
+    margin-top: calc(-10vh);
+    right: 30px;
+    transition: 0.3s;
+}
+.contact-whatsap img:hover{
+    width: 60px;
+    transition: 0.3s;
+}

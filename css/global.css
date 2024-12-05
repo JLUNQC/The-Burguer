@@ -1,0 +1,10 @@
+:root{
+    --yellow--:#FAB732;
+    --gray--:#262626;
+    --gray-p-:#8D8D8D;
+}
+.contenedor{
+    display: flex;
+    padding-left: 290px;
+    margin-top: calc(-100vh);
+}

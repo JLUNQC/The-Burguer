@@ -1,0 +1,47 @@
+.presentacion{
+    background-color: #0F0F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 15%;
+}
+.presentacion h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 28px;
+}
+.presentacion p{
+    color: var(--gray-p-);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.history-img img{
+    width: 360px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.testimonios{
+    height: 340px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+        ), url(../assets/img/burger-6309618.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonios h3{
+    font-size: 30px;
+}
+.testimonios p{
+    padding-top: 30px;
+    font-size: 14px;
+    width: 580px;
+    text-align: center;
+}
