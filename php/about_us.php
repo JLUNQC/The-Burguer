@@ -1,29 +1,43 @@
-<?php require('../template/header.php');?>
+<?php require('../template/header.php'); ?>
 <link rel="stylesheet" href="../css/about_us.css">
 <section class="contenedor">
     <div class="about-us">
         <div class="presentacion">
             <div class="history">
-                <h2>Welcome To The Burguer</h2>
-                <p>Place where you can have a great time with your family and friends, and, of course, try the best steaks and wine in 24 King Street, Charleston South Carolina.</p>
-                <p>Maecenas viverra lorem eget ex mollis, ut gravida est luctus. Maecenas eu tellus vel nunc ullamcorper iaculis non varius turpis. Duis fringilla sollicitudin porta. Vivamus fringilla lacus et velit consectetur, ut consectetur ultricies condimentum nisi consequat in.</p>
-                <p>Quality viverra lorem eget ex mollis, ut gravida est luctus. Maecenas eu tellus vel nunc ullamcorper iaculis non varius turpis. Duis fringilla sollicitudin porta. Vivamus fringilla lacus et velit consectetur, utcon sectetur urna pharetra. Vestibulum ultricies pulvinar lectus, non condimentum nisi consequat in.</p>
-    
+                <h2>The Burguers</h2>
+                <p>Nos especializamos en llevarte el mejor sabor en cada bocado. Nuestro menú ofrece hamburguesas artesanales, perros calientes y una deliciosa selección de parrilla, preparados con ingredientes frescos y de calidad.</p>
+                <p>Desde nuestra clásica "Burguer Clásica" hasta opciones más contundentes como la "Doble Carne", cada plato está diseñado para satisfacer todos los antojos. También ofrecemos cortes de res, cerdo y pollo a la parrilla, acompañados de papas fritas, arepas y nuestras salsas caseras. Para quienes buscan compartir, contamos con picadas y nuestras irresistibles costillas BBQ.</p>
+                <p>En The Burguers, combinamos pasión, sabor y atención al detalle para brindarte una experiencia culinaria única, ya sea que elijas disfrutar en nuestro local o pedir para llevar. ¡Estamos aquí para servirte!</p>
+
             </div>
             <div class="history-img">
-                <img src="../assets/img/about1.jpg" alt="imagen-1">
-                <img src="../assets/img/about1.jpg" alt="imagen-2">
+                <img src="../assets/img/about-1.webp" alt="imagen-1">
+                <img src="../assets/img/about-2.webp" alt="imagen-2">
             </div>
         </div><!--Fin de presentacion-->
         <div class="testimonios">
-            <h3>Jhoan luna</h3>
-            <p>The name REDBOA, in principle, quite fully describes the restaurant's concept: red meat and red wine - what else is needed for a steakhouse!</p>
+            <h3>Alexa Delgado</h3>
+            <p>Delicioso todo, amo la hamburguesa Bacon y su salsa de ajo, y muy buenos precios.</p>
         </div>
-
-            <h1>hola</h1>
-
-
+        <div class="contacto">
+            <h3>CONTÁCTENOS</h3>
+            <div class="informacion">
+                <div class="informacion-1">
+                    <h4>NUESTRA DIRECCIÓN</h4>
+                    <P>Corazón de Jesús, Manzana 11B - Casa 2A</P>
+                </div>
+                <div class="informacion-1">
+                    <h4>TELÉFONO Y CORREO</h4>
+                    <P>+57 315 4323 374</P>
+                    <p>theburguerspasto@gmail.com</p>
+                </div>
+                <div class="informacion-1">
+                    <h4>HORARIO DE ATENCIÓN</h4>
+                    <P>MARTES - DOMINGO </P>
+                    <p>5 PM - 10:30 PM</p>
+                </div>
+            </div>
+        </div>
+        <?php include('../template/footer.php'); ?>
     </div>
 </section>
-
-

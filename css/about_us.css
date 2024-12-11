@@ -45,3 +45,31 @@
     width: 580px;
     text-align: center;
 }
+.contacto{
+    background-color: #0F0F0F;
+    color: white;
+    padding-bottom: 20px;
+}
+.contacto h3{
+    font-size: 40px;
+    text-align: center;
+    padding: 60px 0px;
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informacion-1{
+    width: 300px;
+    text-align: center;
+}
+.informacion-1 p{
+    font-size: 17px;
+    padding-bottom: 8px;
+    color: var(--gray-p-);
+}
+.informacion-1 h4{
+    font-size: 25px;
+    padding-bottom: 15px;
+}

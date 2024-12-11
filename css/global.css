@@ -6,7 +6,6 @@
 .contenedor{
     display: flex;
     padding-left: 290px;
-    margin-top: calc(-100vh);
 }
 ::-webkit-scrollbar{
     display: none;
