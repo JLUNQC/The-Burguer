@@ -5,7 +5,7 @@
 }
 /*Hader*/
 header{
-    background-color: var(--gray--);
+    background-color: #0F0F0F;
     display: flex;
     flex-direction: column;
     width: 290px;

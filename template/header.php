@@ -18,9 +18,9 @@
         <div class="navegation">
             <ul>
                 <li><a href="../../hamburguesa/index.php">INICIO</a></li>
-                <li><a href="../../hamburguesa/php/about_us.php">NOSOTROS</a></li>
                 <li><a href="../../hamburguesa/php/menu.php">MENU</a></li>
-                <li><a href="../../hamburguesa/php/contact.php">CONTACTO</a></li>
+                <li><a href="../../hamburguesa/php/about_us.php">NOSOTROS</a></li>
+                <li><a href="../../hamburguesa/php/about_us.php #contact">CONTACTO</a></li>
             </ul>
         </div>
         <div class="info">

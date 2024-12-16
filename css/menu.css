@@ -1,0 +1,52 @@
+.menu{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+        ), url(../assets/img/black2.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.menu h2{
+    font-size: 30px;
+    padding: 30px 20px 20px 20px;
+    border-bottom: 2px solid var(--yellow--); 
+}
+.menus{
+    text-align: center;
+}
+.select-menu{
+    padding: 20px 0px;
+    display: flex;
+    font-size: 15px;
+    gap: 20px;
+}
+.menus-info{
+    padding: 10px 0px;
+    width: 700px;
+    font-size: 15px;
+}
+.menus-info h3{
+    color: var(--yellow--);
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.menus-info p{
+    padding: 5px 0px;
+}
+.precio{
+    color: var(--yellow--);
+    font-size: 16px;
+}
+.menus img{
+    width: 55px;
+    height: 50px;
+    filter: invert(62%) sepia(84%) saturate(378%) hue-rotate(360deg) brightness(102%) contrast(98%);
+}

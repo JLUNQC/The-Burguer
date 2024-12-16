@@ -19,7 +19,7 @@
             <h3>Alexa Delgado</h3>
             <p>Delicioso todo, amo la hamburguesa Bacon y su salsa de ajo, y muy buenos precios.</p>
         </div>
-        <div class="contacto">
+        <div class="contacto" id="contact">
             <h3>CONTÁCTENOS</h3>
             <div class="informacion">
                 <div class="informacion-1">
@@ -38,6 +38,6 @@
                 </div>
             </div>
         </div>
-        <?php include('../template/footer.php'); ?>
+        <?php require('../template/footer.php'); ?>
     </div>
 </section>
